@@ -213,6 +213,7 @@
 
   * [Brainboard](https://www.brainboard.co) - 用于端到端可视化构建和管理云基础设施的协作解决方案。
   * [Cloud 66](https://www.cloud66.com/) - 个人项目免费（含 1 台部署服务器和 1 个静态站点），提供在任意云上构建、部署和扩展应用所需的一切功能，无需处理繁琐的服务器运维。
+  * [Cloud Cost Analyzer](https://cca.dragonfractal.com/) - 扫描 AWS 和 Azure 中的成本浪费，内置 92 项自动化检查，涵盖闲置 NAT 网关、gp2 卷和超额配置实例。通过只读、开发者优先的 CLI 获取成本节省估算。免费额度为单个 AWS 账户每次扫描最多 5,000 个资源。付费套餐提供资源 ID 与精确修复步骤。
   * [deployment.io](https://deployment.io) - 帮助开发者自动化 AWS 部署。免费套餐中，单个开发者可部署无限静态站点、Web 服务和环境；每月免费执行 10 个作业，并包含预览和自动部署。
   * [Parsivex](https://www.parsivex.com) - 扫描 AWS 账户中的闲置 EC2、未挂载 EBS、规格过大的 RDS、过期快照、NAT 网关过度使用等。免费层每月可扫描 1 个 AWS 账户，并返回每月浪费总额及分类明细；付费计划提供逐项结果和定时复扫。
   * [Pulumi](https://www.pulumi.com/) - 现代基础设施即代码平台，可使用熟悉的编程语言和工具构建、部署及管理云基础设施。
@@ -267,7 +268,6 @@
   * [CarAPI.dev](https://carapi.dev) - 综合汽车数据 API，支持 VIN 解码、失窃车辆检查、车辆估值、检查数据等。免费套餐可在全部 9 个端点上每月请求 100 次。
   * [CatchDoms](https://catchdoms.com) - 聚合 16 个市场的过期和即将删除域名列表，并补充反向链接、Trust Flow、Wayback 历史和质量评分等 SEO 数据。免费方案含 10 个解锁列表、5 个收藏和 3 个保存搜索；注册后 7 天 Pro 试用包含完整 REST API 和 MCP 服务器访问。
   * [Cloudmersive](https://cloudmersive.com/) - 实用 API 平台，可访问文档转换、病毒扫描等完整 API 库；每月 600 次调用，仅限北美可用区，最大文件 2.5MB。
-  * [Colaboratory](https://colab.research.google.com) - 免费的 Web Python Notebook 环境，配备 Nvidia Tesla K80 GPU。
   * [CometML](https://www.comet.com/site/) - 用于实验跟踪、生产模型管理、模型注册及完整数据血缘的 MLOps 平台，覆盖从训练到生产的整个工作流。个人和学术用户免费。
   * [Commerce Layer](https://commercelayer.io) - 可组合商业 API，可从任意前端构建、创建和管理订单。开发者方案每月免费 100 个订单，最多 1,000 个 SKU。
   * [Composio](https://composio.dev/) - 面向 AI Agent 与 LLM 的集成平台，可连接 Agent 互联网中的 200 多种工具。
@@ -280,7 +280,6 @@
   * [CurrencyScoop](https://currencyscoop.com) - 面向金融科技应用的实时货币数据 API，免费方案每月 5,000 次调用。
   * [CustomJS](https://www.customjs.io) - 提供 HTML 转 PDF、PDF 转 PNG/文本，以及 PDF 合并/提取等 API。免费套餐每月 600 次调用。
   * [Data Fetcher](https://datafetcher.com) - 无需代码即可将 Airtable 连接到任意应用或 API，提供类似 Postman 的 Airtable 内 API 请求界面，并预置数十种应用集成。免费方案每月 100 次运行。
-  * [Data Miner](https://dataminer.io/) - 从网页提取 CSV 或 Excel 数据的浏览器扩展（Google Chrome、MS Edge），免费方案每月 500 页。
   * [Dataimporter.io](https://www.dataimporter.io) - 用于连接、清理数据并导入 Salesforce 的工具，免费方案每月最多 20,000 条记录。
   * [Datalore](https://datalore.jetbrains.com) - JetBrains 提供的 Python Notebook，每月含 10GB 存储空间和 120 小时运行时间。
   * [DB Designer](https://www.dbdesigner.net/) - 云端数据库模式设计与建模工具，免费入门方案支持 2 个数据库模型，每个模型 10 张表。
@@ -293,15 +292,14 @@
   * [Doppio](https://doppio.sh/) - 使用先进渲染技术生成并私密存储 PDF 和截图的托管 API，免费方案每月 400 份 PDF/截图。
   * [DocPenny](https://docpenny.com) - 基于模板的 HTML 转 PDF 文档生成服务，支持 Webhook 投递和积分计费。免费方案每月 50 积分，无需信用卡。
   * [Doqlo](https://doqlo.com/) - 通过 Web 应用或公共 API，从 CSV 批量填写和邮件合并 PDF 表单。免费方案每月 100 份输出 PDF。
-  * [drawDB](https://drawdb.app/) - 免费开源的在线数据库图表编辑器，无需注册。
   * [DynamicDocs](https://advicement.io) - 基于 LaTeX 模板，通过 JSON 转 PDF API 生成文档。免费方案每月 50 次 API 调用，并可访问模板库。
   * [Earnings Feed](https://earningsfeed.com/api) - 实时 SEC 申报、内幕交易和机构持仓 API，免费套餐每分钟 15 次请求。
+  * [Estuary](https://estuary.dev/) - 面向 CDC、流式和批量数据整合的实时数据集成平台，支持 200 多个托管连接器。免费方案包含每月 10 GB 数据移动量和最多 2 个连接器实例，无时限、无需信用卡。
   * [Export SDK](https://exportsdk.com) - 提供拖放模板编辑器、SDK 和无代码集成的 PDF 生成 API。免费方案每月 250 页、无限用户和 3 个模板。
-  * [ExtendsClass](https://extendsclass.com/rest-client-online.html) - 免费的 Web HTTP 客户端，用于发送 HTTP 请求。
   * [Financial Data](https://financialdata.net/) - 股票市场与金融数据 API，免费方案每天 300 次请求。
   * [finlight](https://finlight.me) - 实时金融新闻 API，支持实体解析（tickers、ISIN）和情绪标签，可通过 REST、WebSocket、webhooks 和 MCP server 使用。免费层 REST 与 MCP 每月各 5000 次请求，文章延迟 12 小时，无需信用卡。
   * [Firecrawl](https://www.firecrawl.dev/) - 抓取网站并转换为干净、适合 LLM 使用的 Markdown 或结构化数据的 API，可处理 JavaScript 渲染、代理和速率限制。免费方案每月 1,000 积分，无需信用卡。
-  * [FormatJSONOnline.com](https://formatjsononline.com) - 免费浏览器工具，可即时格式化、验证、比较和压缩 JSON 数据。
+  * [Formfeed](https://formfeed.dev) - 从 JSON 生成 PDF 和图片的 API，可通过简单 API 或 Zapier 与 Make 等自动化工具调用。免费方案包含每月 100 次 PDF 转换。
   * [FraudLabs Pro](https://www.fraudlabspro.com) - 检查订单中的信用卡支付欺诈，REST API 会根据订单输入参数检测各种潜在欺诈特征。免费 Micro 方案每月 500 笔交易。
   * [FreeIPAPI](https://freeipapi.com) - 面向商业和非商业用户的免费、快速、可靠 JSON IP 地理位置 API。
   * [Geolocated.io](https://geolocated.io) - 具有多洲服务器的 IP 地理位置 API，免费方案每天 2,000 次请求。
@@ -331,11 +329,9 @@
   * [JSON IP](https://getjsonip.com) - 返回发起请求客户端的公网 IP。免费套餐无需注册；支持 CORS，可在浏览器中直接通过客户端 JavaScript 请求，适合监控客户端和服务器 IP 变化，请求次数不限。
   * [JSON to Table](https://jsontotable.org) - 将 JSON 转换为交互式表格，方便在线快速查看、编辑和分享。
   * [JSON2Video](https://json2video.com) - 视频编辑 API，可通过代码或无代码方式自动化生成营销和社交媒体视频。
-  * [JSONGrid](https://jsongrid.com) - 免费工具，可将复杂 JSON 数据可视化、编辑并筛选成美观表格，还可通过链接保存和分享 JSON 数据。
   * [JSONing](https://jsoning.com/api/) - 从 JSON 对象创建模拟 REST API，并自定义 HTTP 状态码、Header 和响应正文。
-  * [JSONSwiss](https://www.jsonswiss.com/) - 强大的在线 JSON 查看器、编辑器和验证器，可格式化、可视化、搜索和处理 JSON，支持 AI 修复、树视图、表格视图、12 种以上语言代码生成，以及 JSON 转 CSV、XML、YAML、Properties 等。
-  * [KillBait API](https://killbait.com/api/doc) - 用户可提交 URL 进行内容评估，检测潜在标题党并对文章分类。API 适用于中等发布频率，每小时最多提交 1 次、每天 10 次；媒体合作方可申请更高限额。
-  * [Kreya](https://kreya.app) - 免费 gRPC GUI 客户端，用于调用和测试 gRPC API，可通过服务器反射导入 gRPC API。
+  * [Labelixa](https://labelixa.com) - Zebra ZPL 标签渲染与验证 API 及浏览器查看器。免费额度包含匿名渲染配额和无水印条形码生成，无需绑卡。
+  * [LayerCall](https://www.layercall.com) - 一次调用即可完成 IP、邮箱、电话、域名或设备的欺诈与信任评分，并为 AI 智能体提供授权和 Web Bot Auth 验证。每月 1,000 次查询免费，无需信用卡。
   * [LoginLlama](https://loginllama.app) - 登录安全 API，可检测欺诈和可疑登录并通知客户，每月前 1,000 次登录免费。
   * [Market Data API](https://www.marketdata.app) - 提供股票、期权、共同基金等实时和历史金融数据，永久免费 API 套餐每天 100 次请求。
   * [Maxim AI](https://getmaxim.ai/) - 模拟、评估并观测 AI Agent，提供端到端评估和可观测性，帮助团队更可靠、更快速地发布 AI Agent。独立开发者和小团队永久免费（3 个席位）。
@@ -348,31 +344,26 @@
   * [Multi-Exit IP Address Checker](https://ip.alstra.ca/) - 免费简单的工具，可从多个节点检查出口 IP，了解你的 IP 在不同全球地区和服务中的呈现方式，适合测试 Control D 等基于规则的 DNS 分流工具。
   * [NASdisks Drive Data API](https://www.nasdisks.com/data/) - 面向 NAS HDD/SSD 规格的免费免密钥、支持 CORS 的 API，提供逐型号 CMR/SMR 分类，以及基于 Backblaze Drive Stats 的年化故障率。返回 JSON 或 CSV，采用 CC BY 4.0，无需注册。
   * [News API](https://newsapi.org) - 通过代码搜索互联网新闻并获取 JSON 结果。开发者每天免费 100 次查询，文章延迟 24 小时。
-  * [numlookupapi.com](https://numlookupapi.com) - 免费电话号码验证 API，每月 100 次请求。
   * [OCR.Space](https://ocr.space/) - OCR API，可解析图片和 PDF 并以 JSON 返回文本结果。每月免费 25,000 次请求，文件上限 1MB。
   * [OpenAPI3 Designer](https://openapidesigner.com/) - 免费可视化创建 OpenAPI 3 定义。
   * [Parseur](https://parseur.com) - 每月免费 20 页：从 PDF 和电子邮件中提取数据，支持 AI，并提供完整 API 访问。
   * [PDF-API.io](https://pdf-api.io) - PDF 自动化 API，提供可视化模板编辑器或 HTML 转 PDF、动态数据集成及 API 渲染。免费方案含 1 个模板，每月 100 份 PDF。
   * [PDFBolt](https://pdfbolt.com) - 面向开发者、注重隐私的 PDF 生成 API，文档风格类似 Stripe，每月包含 500 次免费 PDF 转换。
-  * [Pexafy](https://pexafy.com) - 跨 9 个免费图片源（Unsplash、Pexels、Pixabay、Kaboompics 等）的语义图片搜索 API，将 900 万+ 图片统一为一种 JSON schema，无需分别集成。支持自然语言查询、反向图片搜索，以及颜色、方向和许可筛选。读取端点开放 CORS，可直接在浏览器运行。免费计划每月 5000 次 API 请求、1 个 key，无需应用审核。
+  * [Pexafy](https://docs.pexafy.com) - 跨 9 个免费图片源（Unsplash、Pexels、Pixabay、Kaboompics 等）的语义图片搜索 API，将 900 万+ 图片统一为一种 JSON schema，无需分别集成。支持自然语言查询、反向图片搜索，以及颜色、方向和许可筛选。读取端点开放 CORS，可直接在浏览器运行。免费计划每月 5000 次 API 请求、1 个 key，无需应用审核。
   * [Pixela](https://pixe.la/) - 免费的日流数据库服务，所有操作均通过 API 完成，并支持热力图和折线图可视化。
   * [Posthook](https://posthook.io) - 定时触发未来 Webhook，支持自动重试、投递跟踪和失败告警。免费方案每月 1,000 个 Webhook。
   * [Postman](https://postman.com) - 用于 API 开发的协作平台，可简化工作流并更快构建更好的 API。Postman App 可永久免费使用，Postman 云功能在一定限制下同样永久免费。
   * [PrefectCloud](https://www.prefect.io/cloud/) - 完整的数据流自动化平台，免费方案包含 5 个已部署工作流和每月 500 分钟无服务器计算额度。
   * [Preset Cloud](https://preset.io/) - 托管的 Apache Superset 服务，最多 5 名用户的团队永久免费，包含无限仪表板和图表、无代码图表构建器及协作 SQL 编辑器。
   * [ProxySentry](https://proxysentry.io/) - 检测住宅代理与 VPN 的 IP API，通过 rapidapi.com 提供每月 10,000 次请求的免费套餐。
+  * [Publora](https://publora.com) - 发布 API：通过一次 HTTPS 调用（或经 MCP 由 AI 智能体）向 10 个社交平台发布或定时发帖。永久免费：每月 15 篇帖子、3 个已连接账户，支持除 X 以外的所有平台。
   * [Reducto](https://reducto.ai) - 将 PDF、XLSX、JPG、PPTX 等非结构化文档转换为结构化 JSON，可解析、提取数据并编辑 PDF 表单。免费套餐含 15,000 积分，超额按量付费。
   * [Rendi](https://rendi.dev) - FFmpeg REST API，无需管理基础设施即可在线运行 FFmpeg。免费套餐含每月处理额度和 4 个可用 vCPU。
   * [RequestBin.com](https://requestbin.com) - 创建可接收 HTTP 请求的免费端点，所有请求及其 Payload 和 Header 都会被记录，方便观察来自 Webhook 和其他服务的请求。
-  * [ROBOHASH](https://robohash.org/) - 根据任意文本生成独特、有趣图片的 Web 服务。
-  * [Scraper's Proxy](https://scrapersproxy.com) - 用于抓取的简单 HTTP 代理 API，可匿名抓取，无需担心限制、封禁或验证码。每月前 100 次成功抓取免费，并包含 JavaScript 渲染（联系支持可获得更多额度）。
-  * [ScrapingAnt](https://scrapingant.com/) - 无头 Chrome 抓取 API 和免费已验证代理服务，支持 JavaScript 渲染、高级轮换代理及规避 CAPTCHA，免费提供 10,000 API 积分。
-  * [SerpApi](https://serpapi.com/) - 实时搜索引擎抓取 API，可返回 Google、YouTube、Bing、Baidu、Walmart 等平台的结构化 JSON 结果。免费方案每月 100 次成功 API 调用。
   * [Simplescraper](https://simplescraper.io) - 每次操作后触发 Webhook，免费方案含 100 个云端抓取积分。
   * [Geekflare API](https://geekflare.com/api/) - 可将网站抓取为 Markdown、截图、扫描 TLS、查询 DNS、测试加载时间等。免费方案每月 500 API 积分（例如 500 次 DNS 查询、250 次网页抓取或 100 次截图），详见[credit mapping](https://docs.geekflare.com/api/api-credit-mapping)。
   * [SmartParse](https://smartparse.io) - 数据迁移与 CSV 转 API 平台，提供节省时间和成本的开发工具。免费套餐每月 300 个处理单元，并包含浏览器上传、数据隔离、熔断器和作业告警。
   * [Sofodata](https://www.sofodata.com/) - 从 CSV 文件创建安全 RESTful API。上传 CSV 后即可通过 API 访问数据，加快应用开发。免费方案含 2 个 API 和每月 2,500 次调用，无需信用卡。
-  * [Sqlable](https://sqlable.com/) - 免费在线 SQL 工具集合，包括 SQL 格式化与验证、SQL 正则测试、模拟数据生成和交互式数据库 Playground。
   * [Svix](https://www.svix.com/) - Webhooks 即服务，每月可免费发送 50,000 条消息。
   * [Tavily AI](https://tavily.com/) - 面向在线搜索、快速洞察和综合研究的 API，可组织研究结果。免费套餐每月 1,000 次请求，无需信用卡。
   * [TemplateFox](https://pdftemplateapi.com) - PDF 生成 API，提供可视化模板编辑器、动态数据合并和 7 种语言 SDK。免费方案每月 60 份 PDF 和 3 个模板。
@@ -385,6 +376,7 @@
   * [vatcheckapi.com](https://vatcheckapi.com) - 简单免费的 VAT 号码验证 API，每月 150 次免费验证。
   * [vatnode](https://vatnode.dev) - 欧盟 VAT 号码验证 REST API，支持 VIES 和各国税务登记回退，并返回官方 VIES 查询编号以供审计。免费套餐每月 100 次验证，无需信用卡。
   * [WeatherXu](https://weatherxu.com/) - 通过 API 提供全球当前天气、逐小时/逐日预报和天气警报，结合 AI 与机器学习分析多个天气模型以提高准确度。免费套餐每月 10,000 次 API 调用。
+  * [Webhooker](https://webhooker.eu/) - 托管于德国的 Webhook 网关，支持签名验证、重试、死信队列和重放。免费方案：每月 10,000 个事件。
   * [WebScraping.AI](https://webscraping.ai) - 内置解析、Chrome 渲染和代理的简单网页抓取 API，每月 2,000 次免费 API 调用。
   * [Weights & Biases](https://wandb.ai) - 开发者优先的 MLOps 平台，通过实验跟踪、数据集版本控制和模型管理更快构建更好模型。仅个人项目可用免费套餐，含 100GB 存储。
   * [What Is My IP](https://whatismyip.help) - 免费检查公网 IPv4、IPv6 和相关请求数据，提供多种 API 输出格式，适合自动化、脚本和网络故障排查。
@@ -392,12 +384,10 @@
   * [XFlux](https://www.xfluxapi.com) - X/Twitter 只读 REST API（资料、搜索、时间线）及账户监控。免费层每月 1000 次 API 调用、1 个 monitor，并可即时获得 API key。HTTP webhooks 仅在付费计划提供，起价 $19/月。
   * [wolfram.com](https://wolfram.com/language/) - 云端内置知识型算法。
   * [wrapapi.com](https://wrapapi.com/) - 将任意网站转换为参数化 API，每月 30,000 次 API 调用。
-  * [Zenscrape](https://zenscrape.com/web-scraping-api) - 使用无头浏览器和住宅 IP 的网页抓取 API，定价简单。每月 1,000 次免费 API 调用，学生和非营利机构可获得额外积分。
   * [Zipcodebase](https://zipcodebase.com) - 免费邮政编码 API，可访问全球邮政编码数据，每月 5,000 次免费请求。
-  * [Zip-Codes](https://www.zip-codes.com/api/) - 美国和加拿大邮政编码 REST API，支持地址验证、半径搜索和人口普查统计，每天 2,500 次免费请求。
-  * [Zipcodestack](https://zipcodestack.com) - 免费邮政编码 API 与邮编验证服务，每月 10,000 次免费请求。
   * [Zuplo](https://zuplo.com/) - 免费 API 管理平台，可在边缘设计、构建和部署 API，几分钟内为任意 API 添加 API Key 认证、速率限制、开发者文档和商业化。原生支持 OpenAPI，并可使用 Web 标准 API 与 TypeScript 编程。免费方案最多 10 个项目、无限生产边缘环境、每月 100 万次请求和 10GB 出站流量。
   * [Metashot](https://metashot.io) — Open Graph（OG）社交预览图生成 API，可通过 URL 参数生成适用于 Twitter、LinkedIn 和 Facebook 的动态 1200×630 图片，并在 Cloudflare Workers 边缘缓存。免费套餐每月 1,000 次渲染，付费方案每月 12 美元起。
+  * [Tinyfish](https://www.tinyfish.ai) - 带速率限制的免费网络搜索与网页内容获取 API。
 
 **[⬆️ 返回顶部](#table-of-contents)**
 
@@ -444,7 +434,7 @@
   * [Fizzy](https://www.fizzy.do/) - 基于看板的项目管理和问题跟踪平台，可创建公开看板、配置 Webhook、使用卡片盖章并跟踪无限用户，1,000 个条目以内免费。
   * [flat.social](https://flat.social) - 用于团队会议和欢乐时光社交的可交互自定义空间，会议次数不限，最多 8 名并发用户免费。
   * [flock.com](https://flock.com) - 更快速的团队沟通方式，消息、频道、用户、应用和集成均可免费无限使用。
-  * [GhostChat](https://ghostchat.dev) - 隐私优先的网站实时聊天组件（约 15KB，无 Cookie、无跟踪）。免费方案含 1 个站点、无限消息、30 天历史、Gmail 线程、快捷回复和推送通知。
+  * [GhostChat](https://ghostchat.dev) - 隐私优先的网站实时聊天组件（约 15KB，无 Cookie、无跟踪）。免费方案含 1 个站点、无限消息、内置 AI 聊天机器人（每月 25 条回复）、30 天历史、Gmail 线程、快捷回复和推送通知。无需信用卡。
   * [GitBook](https://www.gitbook.com/) - 用于收集和记录技术知识的平台，覆盖产品文档、内部知识库和 API，个人开发者可用免费方案。
   * [GitDailies](https://gitdailies.com) - 汇总团队在 GitHub 上的 Commit 和 Pull Request 活动日报，包含 Push 可视化、同伴认可系统和自定义告警构建器。免费套餐用户不限，支持 3 个仓库和 3 个告警配置。
   * [gitter.im](https://gitter.im/) - 面向 GitHub 的聊天服务，公开和私密房间不限，最多 25 人团队免费。
@@ -573,6 +563,7 @@
   * [gtmetrix.com](https://gtmetrix.com/) - 提供网站优化报告和详细建议。
   * [holistic.dev](https://holistic.dev/) - PostgreSQL 优化静态代码分析器，可自动检测数据库性能、安全和架构问题。
   * [houndci.com](https://houndci.com/) - 在 GitHub Commit 上发布代码质量评论，开源项目免费。
+  * [prquorum.com](https://prquorum.com) - AI 代码评审 GitHub 应用，每月可在 2 个仓库中免费进行 50 次评审。
   * [reviewable.io](https://reviewable.io/) - GitHub 仓库代码审查工具，公开或个人仓库免费。
   * [scan.coverity.com](https://scan.coverity.com/) - Java、C/C++、C# 和 JavaScript 静态代码分析，开源项目免费。
   * [scrutinizer-ci.com](https://scrutinizer-ci.com/) - 持续检查平台，开源项目免费。
@@ -652,11 +643,13 @@
   * [Lastest](https://lastest.cloud) - 通过 AI 辅助的视觉验证和可信测试快速发布并避免破坏。永久免费方案含 1 个项目、每月 500 Runner 分钟、1 个并发运行，无需信用卡。
   * [loadmill.com](https://www.loadmill.com/) - 通过分析网络流量自动创建 API 和负载测试，每月可免费模拟最多 50 个并发用户，最长 60 分钟。
   * [lost-pixel.com](https://lost-pixel.com) - 面向 Storybook、Ladle、Histoire Story 和 Web 应用的完整视觉回归测试，团队成员不限，开源项目完全免费，每月 7,000 个快照。
+  * [OpenWebhook](https://openwebhook.co) - 临时 Webhook URL 与实时事件检查器。无需注册，事件历史保存在浏览器中。自定义 slug 和远程转发为付费功能。
   * [pagegym.com](https://pagegym.com) - 负载行为、页面速度分析与优化工具。免费方案每天 10 次测试、每周 5 个实验、每月最多写入 15GB 数据。
   * [percy.io](https://percy.io) - 为任意 Web 应用、静态站点、样式指南或组件库添加视觉测试，含无限团队成员、演示应用、无限项目和每月 5,000 个快照。
   * [qase.io](https://qase.io) - 面向开发和 QA 团队的测试管理系统，可管理测试用例、组合测试运行、执行测试、跟踪缺陷和衡量影响。免费套餐包含所有核心功能、500MB 附件空间和最多 3 名用户。
   * [Repeato](https://repeato.app/) - 基于计算机视觉和 AI 的无代码移动应用测试自动化工具，适用于原生应用、Flutter、React Native、Web、Ionic 等框架。免费方案限 10 个 iOS 测试和 10 个 Android 测试，但包含付费方案的大部分功能及无限测试运行。
   * [Requestly](https://requestly.com/) - 用于拦截、重定向和模拟 HTTP 请求的开源 Chrome 扩展，包含 [Debugger](https://requestly.com/products/web-debugger/)、[Mock Server](https://requestly.com/products/mock-server/)、[API Client](https://requestly.com/products/api-client/) 和 [Session Recording](https://requestly.com/products/session-book/)。可重定向 URL、修改 HTTP Header、模拟 API、注入自定义 JS、修改 GraphQL 请求、生成模拟 API 端点，并记录网络与控制台日志。免费套餐最多创建 10 条规则，开源项目免费。
+  * [Sample Files](https://mzeeshan.me/tools/sample-files) - 汇集视频、音频、文档和压缩包等多种格式的免费测试文件集合，适用于测试与 QA。
   * [seotest.me](https://seotest.me/) - 免费站内 SEO 测试工具，每天可免费抓取 10 个网站，提供 SEO 学习资源和适用于任意技术栈的网站优化建议。
   * [Sherlo](https://sherlo.io) - React Native 应用的视觉回归测试。免费计划每月 1000 个 snapshots，支持 iOS 和 Android 模拟器。
   * [snippets.uilicious.com](https://snippets.uilicious.com) - 类似用于跨浏览器测试的 CodePen。UI-licious 可像编写用户故事一样写测试，并提供免费 UI-licious Snippets 平台；无需注册即可在 Chrome 上无限运行测试，每次最长 3 分钟。发现缺陷后可复制唯一测试 URL，向开发者展示复现方式。
@@ -666,6 +659,7 @@
   * [tesults.com](https://www.tesults.com) - 测试结果报告和测试用例管理，可集成常用测试框架。开源开发者、个人、教育者和刚起步的小团队可申请超出基础免费项目范围的折扣或免费方案。
   * [UseWebhook.com](https://usewebhook.com) - 在浏览器中捕获和检查 Webhook，可转发至 localhost 或从历史记录重放，免费使用。
   * [Vaadin](https://vaadin.com) - 使用 Java 或 TypeScript 构建可扩展 UI，并通过集成工具、组件和设计系统加速迭代、改善设计和简化开发。无限项目，免费维护 5 年。
+  * [VibeView](https://vibeview.io) - 基于浏览器的 iOS、Android、Apple TV 和 Android TV 模拟器，可通过录制流程或自然语言指令进行 AI 驱动的测试自动化。免费额度包含 2 个并发会话和每月 30 分钟流式时长。自带 API key 可绕过包含的 AI 使用额度。
   * [webhook.site](https://webhook.site) - 使用自定义 URL 验证 Webhook、出站 HTTP 请求或邮件，临时 URL 和电子邮件地址始终免费。
   * [websitepulse.com](https://www.websitepulse.com/tools/) - 提供多种免费网络和服务器工具。
   * [kogiQA](https://kogiqa.com) - 无需选择器的 Web UI 自动化工具，每名开发者每月免费 500 个操作。
@@ -716,6 +710,8 @@
   * [Sucuri SiteCheck](https://sitecheck.sucuri.net) - 免费网站安全检查和恶意软件扫描器。
   * [TestTLS.com](https://testtls.com) - 测试 SSL/TLS 服务的服务器配置、证书和证书链等安全性，不限于 HTTPS。
   * [Virgil Security](https://virgilsecurity.com/) - 为数字解决方案实现端到端加密、数据库保护、IoT 安全等的工具与服务，最多 250 名用户的应用免费。
+  * [semgrep](https://semgrep.dev) - 使用 SAST 和 SCA 扫描代码中的安全问题与含漏洞的依赖。免费额度包含最多 10 名贡献者和 10 个私有仓库（公共仓库数量不限）。
+  * [SnapEnv](https://snapenv.io/) - 面向开发团队的安全环境变量管理器。静态数据采用 AES-256-GCM 加密，提供 CLI、Kubernetes operator 和审计日志。免费方案永久包含 3 个项目、3 名成员、每个项目 3 个环境。
 
 **[⬆️ 返回顶部](#table-of-contents)**
 
@@ -752,6 +748,7 @@
   * [Stack Auth](https://stack-auth.com) - 开源且开发者友好的身份认证方案，5 分钟即可开始。可免费自托管，也提供含 10,000 MAU 的托管 SaaS 免费版。
   * [Stytch](https://www.stytch.com/) - 提供身份认证和欺诈防护 API/SDK 的一体化平台。免费方案含 10,000 MAU、无限组织、5 个 SSO 或 SCIM 连接及 1,000 个 M2M Token。
   * [SuperTokens](https://supertokens.com/) - 原生集成应用的开源用户认证方案，可快速起步并控制用户与开发者体验。最多 5,000 MAU 免费。
+  * [Unkey](https://www.unkey.com/) - 开源 API key 管理与限流平台。每月最多 100,000 次请求和 100 个活跃 API key 免费，可完整使用密钥创建、吊销与限流功能。
   * [WorkOS](https://workos.com/) - 最多 100 万 MAU 的免费用户管理和身份认证，支持邮箱密码、社交登录、Magic Auth、MFA 等。
   * [ZITADEL Cloud](https://zitadel.com) - 开箱即用的用户与访问管理，支持多租户 B2B 场景。最多 25,000 次认证请求免费，所有安全功能均无付费墙，包括 OTP、无密码和策略等。
 
@@ -885,8 +882,11 @@
   * [bleemeo.com](https://bleemeo.com) - 免费监控 3 台服务器和 5 个可用性端点，用户、仪表板和告警规则不限。
   * [checklyhq.com](https://checklyhq.com) - 面向开发者的开源端到端/合成监控和深度 API 监控。免费方案含 1 名用户、10,000 次 API/网络检查和 1,500 次浏览器检查运行。
   * [Core Web Vitals History](https://punits.dev/core-web-vitals-historical/) - 查询 URL 或网站的 Core Web Vitals 历史。
+  * [cronalive.com](https://cronalive.com) - cron 任务心跳监控，另提供 HTTP 可用性与 TLS 到期检查，并有可从 Laravel scheduler 生成检查项的包。免费额度含 10 个检查、HTTP 检查间隔最低 5 分钟、30 天历史和每月 50,000 次 ping。
   * [cronitor.io](https://cronitor.io/) - 为 Cron Job、网站、API 等提供性能洞察和可用性监控，免费套餐含 5 个监控项。
+  * [watchcron.com](https://watchcron.com) - cron 任务监控，支持心跳 ping 与告警。免费额度含最多 5 个监控项和邮件通知。
   * [datadoghq.com](https://www.datadoghq.com/) - 最多 5 个节点免费。
+  * [DeadBro](https://www.deadbro.com) - 按请求量计费的 Rails APM：实时追踪、慢 SQL、N+1 检测和错误追踪。每月 50,000 请求、7 天数据保留、1 个应用、1 个可用性检查和邮件告警永久免费，无需信用卡。
   * [deadmanssnitch.com](https://deadmanssnitch.com/) - Cron Job 监控，免费 1 个 Snitch（监控项），邀请他人注册可获得更多。
   * [downtimemonkey.com](https://downtimemonkey.com/) - 60 个可用性监控，5 分钟间隔，支持邮件和 Slack 告警。
   * [drumbeats.io](https://drumbeats.io/) - Cron、心跳和可用性监控，带事件管理和状态页。免费支持最多 50 个监控、1 分钟间隔和无限团队席位。
@@ -899,6 +899,7 @@
   * [inspector.dev](https://www.inspector.dev) - 不到一分钟即可搭建完整实时监控仪表板，提供永久免费套餐。
   * [instatus.com](https://instatus.com) - 10 秒创建美观状态页，订阅者和团队不限，永久免费。
   * [isitdownstatus.com](https://isitdownstatus.com) – 免费公开 JSON API，返回 GitHub、Stripe、AWS 等 500 多项热门服务的实时状态，无需认证，支持 CORS。
+  * [LastPing](https://lastping.dev) - 面向 AI 智能体、cron 任务和 CI 的死亡开关（dead man's switch）。个人用户免费，监控项与通知目标数量不限。让 AI 智能体为一切（包括其自身）构建监控。
   * [linkok.com](https://linkok.com) - 在线失效链接检查器，最多 100 页的小型网站免费，开源项目完全免费。
   * [loader.io](https://loader.io/) - 有限制的免费负载测试工具。
   * [MarionetteOps.com](https://www.marionetteops.com/) - 服务器监控、公开状态页和服务可用性监控。
@@ -931,6 +932,7 @@
   * [UptimeObserver.com](https://uptimeobserver.com) - 提供 20 个可用性监控、5 分钟间隔和可自定义状态页，也可用于商业用途。支持无限实时邮件和 Telegram 通知，无需信用卡。
   * [uptimetoolbox.com](https://uptimetoolbox.com/) - 免费监控 5 个网站，3 分钟间隔，提供公开状态页。
   * [Wachete](https://www.wachete.com) - 监控 5 个页面，每 24 小时检查一次。
+  * [Watchgoose](https://watchgoose.com) - 面向定时任务、备份和后台作业的 cron 任务与心跳监控及状态页，提供 MCP 服务器。免费额度：10 个检查、200 条 ping 日志、邮件/聊天/webhook 告警，无需信用卡。为符合条件的开源项目提供支持计划。
   * [Xitoring.com](https://xitoring.com/) - 可用性监控免费 20 个，Linux/Windows 服务器监控免费 5 台，状态页免费 1 个，并提供移动应用、多通知渠道等。
   * [UptimeRobot](https://uptimerobot.com/) - 面向业余项目的免费可用性监控，含 50 个监控、5 分钟检查间隔，支持 HTTP、Ping、端口和关键字监控。
 
@@ -989,6 +991,7 @@
   * [CloudCertPrep](https://cloudcertprep.io) - 免费开源 AWS 认证模拟考试，CLF-C02 含 1,050 多道题，提供计时模拟考、领域练习、间隔重复和进度跟踪。
   * [CodeTrain](https://codetrain.ai) - AI 编程导师，在你自己的代码库上教学且不会替你编写代码。免费套餐每月 10 节浏览器课程，Python/JS 在客户端运行，无需信用卡。
   * [DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/) - 行业顶尖专家提供的免费短课，可在 1 小时内动手体验最新生成式 AI 工具和技术。
+  * [DevOpsLesson](https://devopslesson.com/) - 免费 DevOps 教程、速查表、故障排查指南、学习路线图、面试准备及 DevOps 工具：Dockerfile Linter、K8S YAML 生成器、正则测试器。
   * [DevNet Academy](https://devnet-academy.com/) - 面向 Cisco DevNet Expert/CCIE Automation 认证的免费自学课程，覆盖 Python Click 和 Flask-RESTx。
   * [Django-tutorial.dev](https://django-tutorial.dev) - 面向第一次学习框架者的免费 Django 在线指南，并为用户撰写的文章提供免费 Dofollow 反向链接。
   * [edX](https://www.edx.org/) - 可访问来自 Harvard、MIT 等 250 家领先机构的 4,000 多门免费在线课程，重点覆盖计算机科学、工程和数据科学。
@@ -1004,6 +1007,7 @@
   * [Roadmap.sh](https://roadmap.sh) - 免费学习路线图，覆盖从区块链到 UX 设计的各类开发领域。
   * [The Odin Project](https://www.theodinproject.com/) - 免费开源学习平台，课程聚焦 JavaScript 和 Ruby Web 开发。
   * [W3Schools](https://www.w3schools.com/) - 提供 HTML、CSS、JavaScript 等 Web 开发技术的免费教程。
+  * [WebTerm Learn](https://learn.webterm.app) - 在浏览器模拟终端中学习 Linux 终端、Git 和 Vim。全部 129 节课免费；每门课程的第一课无需注册账户。
 
 **[⬆️ 返回顶部](#table-of-contents)**
 
@@ -1015,6 +1019,7 @@
 <details>
 <summary>展开 / 收起服务列表</summary>
 
+  * [Unitpost](https://www.unitpost.com/) - AI 优先的事务性与营销邮件服务。免费额度：每月 5,000 封邮件、每天 200 封、10,000 个联系人、5 个域名，无需信用卡。提供 SDK、MCP 和 REST API。
   * [10minutemail](https://10minutemail.com) - 用于测试的免费临时邮箱。
   * [AhaSend](https://ahasend.com) - 事务邮件服务，每月免费 1,000 封，免费方案中的域名、团队成员、Webhook 和消息路由不限。
   * [AnonAddy](https://anonaddy.com) - 开源匿名邮件转发，可免费创建无限邮件别名。
@@ -1032,7 +1037,8 @@
   * [debugmail.io](https://debugmail.io/) - 面向开发者的易用测试邮件服务器。
   * [dkimvalidator.com](https://dkimvalidator.com/) - 测试邮件 DNS/SPF/DKIM/DMARC 配置是否正确，由 roundsphere.com 免费提供。
   * [DNSExit](https://dnsexit.com/) - 可在自定义域名下免费创建最多 2 个邮箱地址，含 100MB 存储，支持 IMAP、POP3、SMTP 和 SPF/DKIM。
-  * [EmailGuard](https://emailguard.lazrek.net/) - 通过简单 API 屏蔽一次性邮箱、捕获拼写错误并验证 MX 记录，每月 100 次免费请求。
+  * [Email Spam Tester](https://email-spam-tester.com/) - 检测邮件的技术配置、内容、链接权威性和总体得分，还可测试邮件会落入收件箱、垃圾邮件还是促销标签。支持 Gmail、GMX、Yahoo、AOL 等多家邮箱的收件箱测试。免费使用，无需绑卡或注册，也可通过 API 和 MCP 使用。
+  * [EmailGuard](https://emailguard.lazrek.com/) - 通过简单 API 屏蔽一次性邮箱、捕获拼写错误并验证 MX 记录，每月 100 次免费请求。
   * [EmailJS](https://www.emailjs.com/) - 并非完整邮件服务器，而是可在不暴露凭据的情况下从客户端直接发信的邮件客户端。免费套餐每月 200 次请求、2 个邮件模板、单请求最大 50KB，并提供有限联系人历史。
   * [EmailLabs.io](https://emaillabs.io/en) - 每月免费发送最多 9,000 封，每天最多 300 封。
   * [EmailQo Email Infrastructure Grader](https://emailqo.com/email-grader) - 免费邮件基础设施评分工具，检查 SPF、DKIM、DMARC 和邮件服务器配置，并为任意域名给出 100 分制评分，无需注册。
@@ -1045,6 +1051,7 @@
   * [ImprovMX](https://improvmx.com) - 免费邮件转发。
   * [Inboxes App](https://inboxesapp.com) - 每天最多创建 3 个临时邮箱，使用后可在 Chrome 扩展中删除，非常适合测试注册流程。
   * [inboxkitten.com](https://inboxkitten.com/) - 免费临时/一次性邮箱，邮件最多 3 天自动删除，开源且可自托管。
+  * [Is It Disposable](https://isitdisposable.com/) - 检测并拦截一次性邮箱地址。免费方案每月 250 次查询，无需信用卡。
   * [KaiMail](https://kaimail.net) - 为自定义域名提供带 ARC/DKIM 签名的邮件转发。免费方案含 1 个域名、1 个邮箱、每月 300 封邮件和最大 1MB 邮件大小；也提供邮件接收 Webhook，并为开源项目提供特殊方案。
   * [mail-tester.com](https://www.mail-tester.com) - 测试邮件 DNS/SPF/DKIM/DMARC 配置是否正确，每月免费 20 次。
   * [Maileroo](https://maileroo.com) - 面向开发者的 SMTP Relay 和邮件 API，每月 5,000 封、无限域名，并提供免费邮件验证、黑名单监控和邮件测试等。
@@ -1070,8 +1077,10 @@
   * [SendBridge Mail Tester](https://sendbridge.com/mail-tester) — 无需注册的免费邮件送达率测试。生成唯一收件箱地址后，分析 SPF、DKIM、DMARC、Rspamd 垃圾分、23 个以上 RBL 黑名单、反向 DNS 和内容质量。测试次数不限，几秒出结果，并提供可分享报告页。
   * [Sender](https://www.sender.net) - 每月最多 15,000 封邮件、2,500 名订阅者。
   * [Sendpulse](https://sendpulse.com) - 每月 500 名订阅者和 15,000 封邮件免费。
+  * [SendRaven](https://sendraven.ai) - 提供事务性邮件与智能体驱动对话（含入站回复与会话线程）的邮件 API。免费额度包含每月 3,000 封外发邮件、联系人数量与入站回复不限，需要绑卡。
   * [SendStreak](https://www.sendstreak.com/) - 邮件框架即服务，可在自有 SMTP（如 AWS、Maileroo、Gmail）上增加模板、自动化、历史等。每天最多 100 封免费，无时间限制。
   * [SimpleLogin](https://simplelogin.io/) - 开源可自托管的邮件别名/转发方案，免费 10 个别名、无限带宽和无限回复/发送；教育人员（学生、研究者等）免费。
+  * [SMTPfast](https://smtpfa.st/) - 面向开发者的简单邮件 API，免费额度包含每月 3,000 封邮件、1 个域名和 1,000 个联系人，无需信用卡。
   * [Substack](https://substack.com) - 无限免费的 Newsletter 服务，开始收费后才需要向平台付费。
   * [Suped](https://www.suped.com/) - 易用的 DMARC 监控平台，免费方案支持 1 个域名和每月最多 1,000 封邮件。
   * [Sweego](https://www.sweego.io/) - 面向开发者的欧洲事务邮件 API，每天 100 封免费。
@@ -1142,6 +1151,7 @@
   * [feedback.fish](https://feedback.fish/) - 免费方案总共可收集 25 条反馈，并提供易于集成的 React 和 Vue 组件。
   * [FluidForms](https://fluidforms.ai/) - 带 AI 逻辑的表单构建器与后端。免费方案每月 100 条响应、无限表单（含 AI 创建）、Webhook 和嵌入功能。
   * [Form.taxi](https://form.taxi/) - HTML 表单提交端点，提供通知、垃圾拦截和符合 GDPR 的数据处理，基础用途免费。
+  * [Formboost.app](https://formboost.app) - 开发者优先的表单后端，提供简单 HTTP 端点、每月 500 次免费提交、垃圾邮件防护、邮件通知，并内置 Slack、Discord 和 Telegram 集成。无需后端。
   * [Formcarry.com](https://formcarry.com) - HTTP POST 表单端点，免费方案每月 100 次提交。
   * [Formester.com](https://formester.com) - 在网站上分享和嵌入外观独特的表单，创建数量和功能不受套餐限制，每月免费 100 次提交。
   * [Forminit](https://forminit.com/) - 面向开发者的无头表单后端，免费方案每月 100 次提交，包含文件上传、服务端字段验证、邮件通知、垃圾防护和 Zapier。
@@ -1157,6 +1167,7 @@
   * [HeyForm.net](https://heyform.net/) - 拖放式在线表单构建器，免费套餐可创建无限表单并收集无限提交，含预置模板、反垃圾和 100MB 文件存储。
   * [Jotform.com](https://jotform.com/) - 免费创建在线表单、收集提交、接受付款、自动化工作流并通过内置电子签名签署文档。免费方案含 5 个表单、每月 100 次提交、10 份电子签名文档、10 笔支付提交等。
   * [Kwes.io](https://kwes.io/) - 功能丰富的表单端点，非常适合静态站点。免费方案最多支持 1 个网站和每月 50 次提交。
+  * [Makeform](https://www.makeform.ai/) - 对话式表单构建器，表单数量与提交量不限的免费方案。99% 的功能免费，包括添加 logo、条件逻辑、文件上传、支付、集成和 webhook。Pro 套餐（每月 19 美元）可移除 Makeform 品牌标识、使用自定义域名并解锁团队功能。Business 套餐（每月 59 美元）提供 RBAC、邮箱验证和单点登录（SSO）。
   * [Pageclip](https://pageclip.co/) - 免费方案支持 1 个站点、1 个表单和每月 1,000 次提交。
   * [SimplePDF.eu](https://simplepdf.eu/embed) - 在网站嵌入 PDF 编辑器，将任意 PDF 转为可填写表单。免费方案 PDF 数量不限，每个 PDF 可提交 3 次。
   * [smartforms.dev](https://smartforms.dev/) - 强大易用的网站表单后端，永久免费方案每月 50 次提交、250MB 文件存储、Zapier 集成、CSV/JSON 导出、自定义跳转、自定义响应页、Telegram/Slack Bot 和单封邮件通知。
@@ -1218,7 +1229,7 @@
   * [developers.google.com](https://developers.google.com/speed/libraries/) - Google Hosted Libraries 是面向热门开源 JavaScript 库的内容分发网络。
   * [Gcore](https://gcorelabs.com/) - 全球内容分发网络，每月免费 1TB 和 100 万次请求，并提供免费 DNS 托管。
   * [jsdelivr.com](https://www.jsdelivr.com/) - 免费、快速、可靠的开源 CDN，支持 npm、GitHub、WordPress、Deno 等。
-  * [Microsoft Ajax](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview) - Microsoft Ajax CDN 托管 jQuery 等常用第三方 JavaScript 库，便于将其加入 Web 应用。
+  * [Microsoft Ajax](https://learn.microsoft.com/en-us/aspnet/ajax/cdn/overview) - Microsoft Ajax CDN 托管 jQuery 等常用第三方 JavaScript 库，便于将其加入 Web 应用。
   * [Namecheap Supersonic](https://www.namecheap.com/supersonic-cdn/#free-plan) - 免费 DDoS 防护。
   * [ovh.ie](https://www.ovh.ie/ssl-gateway/) - 免费 DDoS 防护和 SSL 证书。
   * [PromoProxy](https://promoproxy.net/) - 免费云端安全 Web Gateway，免费方案最多 5 名用户和每天 1GB。
@@ -1250,8 +1261,10 @@
   * [Cohesivity](https://cohesivity.ai) - 为 AI agents 专门构建的 headless backend 和服务，包含托管、数据库、存储、LLMs 与第三方 APIs，并支持 agentic signup。免费层包含 10 个项目、100K edge requests、10GB 对象存储、100 封邮件，以及每月 $5 的 AI 和 search credits。
   * [Daestro](https://daestro.com) - 在云服务商与本地环境中运行计算作业。免费套餐最多 10 个并发作业运行、2 个计算 Spawn、自托管计算、1 个云服务商、1 个容器注册表和 1 个 Cron Job。
   * [Deno Deploy](https://deno.com/deploy) - 在全球边缘运行 JavaScript、TypeScript 和 WebAssembly 的分布式系统，免费套餐每天 100,000 次请求和每月 100GiB 数据传输。
+  * [Deplexo](https://deplexo.com/) - 面向开发者的 PaaS，支持 Git 部署与托管应用、自定义域名、自动 HTTPS 和 Dockerfile。可运行 Node.js、Python、Go、Java、Rust、PHP、静态站点等。免费额度包含 1 个应用（0.25 vCPU、128 MB 内存、250 MB 磁盘、100 GB 流量）。
   * [domcloud.co](https://domcloud.co) - Linux 托管服务，提供 GitHub CI/CD、SSH 和 MariaDB/Postgres。免费版含 1GB 存储、每月 1GB 网络流量，并仅可使用免费域名。
   * [encore.dev](https://encore.dev/) - 使用静态分析自动提供基础设施、免样板代码等能力的后端框架，并为业余项目提供免费云托管。
+  * [faable.com](https://faable.com/) - 部署应用并自动检测 Python 和 Node.js 框架。免费额度包含每个项目 1 个 0.5 CPU / 1 GB 内存实例、10 GB 流量、每天 10 次成功部署、自动 SSL 和内置 WAF，另提供 OAuth 2.0 / OIDC 认证。应用 2 小时无流量后进入休眠。服务器位于欧洲。
   * [flightcontrol.dev](https://flightcontrol.dev/) - 通过类似 Git Push 的工作流在自己的 AWS 账号中部署 Web 服务、数据库等。个人 GitHub 仓库且仅 1 名开发者时免费；AWS 成本由 AWS 收取，可使用额度和 AWS 免费套餐。
   * [gigalixir.com](https://gigalixir.com/) - 为 Elixir/Phoenix 应用提供 1 个永不休眠的免费实例和免费 PostgreSQL 数据库，限 2 个连接、10,000 行且无备份。
   * [Northflank](https://northflank.com) - 通过强大的 UI、API 和 CLI 构建部署微服务、作业和托管数据库，并可从版本控制和外部 Docker 注册表无缝扩展容器。免费套餐含 2 个服务、2 个 Cron Job 和 1 个数据库。
@@ -1334,7 +1347,6 @@
   * [DigitalOcean](https://www.digitalocean.com/pricing) - 在 App Platform Starter 套餐上免费构建和部署 3 个静态站点。
   * [FreeFlarum](https://freeflarum.com/) - 社区驱动的免费 Flarum 托管，最多 250 名用户（捐赠可移除页脚水印）。
   * [Harvis.dev](https://harvis.dev) - 通过 CLI（`npx harvis`）提供静态站点托管，无需配置文件或构建步骤。包含免费子域名、免费表单提交收集、GitHub Actions 集成、CloudFlare CDN 和免费 SSL。
-  * [Kinsta Static Site Hosting](https://kinsta.com/static-site-hosting/) - 免费部署最多 100 个静态站点，支持带 SSL 的自定义域名、每月 100GB 带宽和 260 多个 Cloudflare CDN 节点。
   * [Koyeb](https://www.koyeb.com/) - Serverless 平台，免费 Hobby 计划提供每月 550 小时 compute（512MB RAM 免费层）、1 个免费 PostgreSQL 数据库和自定义域名 SSL。
   * [MDB GO](https://mdbgo.com/) - 1 个项目免费托管，容器 TTL 两周，每项目 500MB RAM，SFTP 磁盘空间 1GB。
   * [Mirin](https://mirin.com) - 面向开发者构建的 React、Vue 或 Svelte 组件网站平台，提供可视化编辑、表单、分析和全球 CDN 托管。免费套餐含 1 个站点，页面和提交不限。
@@ -1526,6 +1538,7 @@
   * [Lucidchart](https://www.lucidchart.com/) - 带协作功能的在线图表工具，免费方案含 3 份可编辑文档、100 个专业模板和基础协作功能。
   * [MeisterTask](https://www.meistertask.com/) - 面向团队的在线任务管理，最多 3 个项目免费，项目成员不限。
   * [MeuScrum](https://www.meuscrum.com/en) - 带看板的免费在线 Scrum 工具。
+  * [myspec.dev](https://myspec.dev/) - 规格驱动开发（SDD）架构师工具，通过访谈开发者生成结构化的 4 文件规格包，并集成 MCP 服务器。免费额度包含 20 个项目和 100 个规格文件。
   * [nTask](https://www.ntaskmanager.com/) - 帮助团队协作、规划、分析和管理日常任务的项目管理软件。Essential 方案永久免费，含 100MB 存储和 5 名用户/团队；工作区、会议、任务、工时表和问题跟踪不限。
   * [Plane](https://plane.so/) - 简单、可扩展、开源的项目和产品管理工具，成员不限，单文件上传最大 5MB，最多 1,000 个 Issue 免费。
   * [planitpoker.com](https://www.planitpoker.com/) - 免费在线 Planning Poker（估算工具）。
@@ -1633,6 +1646,7 @@
   * [Excalidraw](https://excalidraw.com/) - 免费在线绘图页面，支持免费保存到本地和导出。
   * [figma.com](https://www.figma.com) - 面向团队的在线协作设计工具，免费套餐文件和查看者不限，最多 2 名编辑者和 3 个项目。
   * [Flows](https://flows.sh/) - 完全可自定义的产品采用平台，用于构建用户引导和互动体验，最多每月 250 名跟踪用户免费。
+  * [JoyDemo](https://joydemo.com) - 为你的网站或应用创建可交互、可点击的演示。免费，演示数量与浏览量不限。
   * [landen.co](https://www.landen.co) - 无需代码即可为创业公司生成、编辑和发布美观网站与落地页。免费套餐允许创建 1 个完全可自定义并发布到互联网的网站。
   * [lensdump.com](https://lensdump.com/) - 免费云端图片托管。
   * [Logo.dev](https://www.logo.dev) - 覆盖 4,400 多万个品牌的公司 Logo API，像调用 URL 一样简单，前 10,000 次 API 调用免费。
@@ -1688,6 +1702,7 @@
   * [osmnames](https://osmnames.org/) - 地理编码，搜索结果按相关 Wikipedia 页面的热度排序。
   * [positionstack](https://positionstack.com/) - 全球地点和坐标免费地理编码，个人使用每月 25,000 次请求。
   * [stadiamaps.com](https://stadiamaps.com/) - 地图瓦片、路线、导航和其他地理空间 API，非商业用途和测试每天 2,500 次免费地图浏览/API 请求。
+  * [SqlInt](https://sqlint.com) - 浏览器内 SQL 工作区，提供免费工具，包括 JOIN 可视化、SQL 格式化、CSV/JSON 转 SQL 转换器以及练习题，无需注册或信用卡。
 
 **[⬆️ 返回顶部](#table-of-contents)**
 
@@ -1714,7 +1729,6 @@
 <summary>展开 / 收起服务列表</summary>
 
   * [Android Studio](https://developer.android.com/studio) - 为各类 Android 设备构建应用提供快速工具。开源 IDE 对所有人免费，是 Android 应用开发的主流选择，支持 Windows、Mac、Linux 和 ChromeOS。
-  * [AndroidIDE](https://m.androidide.com/) - 在 Android 设备上开发真实、基于 Gradle 的 Android 应用的开源 IDE。
   * [Apache Netbeans](https://netbeans.apache.org/) - 开发环境、工具平台和应用框架。
   * [apiary.io](https://apiary.io/) - 协作式 API 设计，提供即时 API Mock 和自动生成文档；免费支持无限 API Blueprint、无限用户、1 个管理员账号和托管文档。
   * [BBEdit](https://www.barebones.com/) - 流行且可扩展的 macOS 编辑器，免费模式提供[powerful core feature set](https://www.barebones.com/products/bbedit/comparison.html)，并可升级使用高级功能。
@@ -1734,6 +1748,7 @@
   * [jetbrains.com](https://jetbrains.com/products.html) - 生产力工具、IDE 和部署工具（如 [IntelliJ IDEA](https://www.jetbrains.com/idea/)、[PyCharm](https://www.jetbrains.com/pycharm/) 等），学生、教师、开源项目和用户组可获得免费许可证。
   * [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - 返回 JSON 模拟数据的若干 REST API 端点，也提供源码，可在本地运行服务器。
   * [Lazarus](https://www.lazarus-ide.org/) - 兼容 Delphi 的跨平台快速应用开发 IDE。
+  * [LiveCodes](https://livecodes.io) - 开源客户端代码演练场（playground），支持 90 多种语言/框架。项目可保存、导出、分享、同步、部署（到 GitHub Pages）并嵌入网页。适配移动端，可自托管，无限使用免费，无需账户。
   * [MarsCode](https://www.marscode.com/) - 免费 AI 云 IDE。
   * [micro-jaymock](https://micro-jaymock.now.sh/) - 用于生成虚假 JSON 数据的小型 API Mock 微服务。
   * [mockaroo](https://mockaroo.com/) - 生成 CSV、JSON、SQL 和 Excel 格式的真实测试数据，也可为后端 API 创建 Mock。
@@ -1772,6 +1787,7 @@
   * [Census](https://www.getcensus.com/) - 反向 ETL 与运营分析平台，可将数据仓库中的 10 个字段同步到 Salesforce、Zendesk、Amplitude 等 60 多种 SaaS。
   * [Clicky](https://clicky.com) - 网站分析平台，免费方案支持 1 个网站和 3,000 次浏览分析。
   * [counter.dev](https://counter.dev) - 简单且隐私友好的 Web 分析，可免费使用或自愿捐赠。
+  * [DevDome](https://devdome.com) - 面向 WordPress 的无 Cookie 网站分析，将人类访客与机器人及 AI 爬虫分开统计。免费方案：站点数量不限、每月 50,000 人类页面浏览量、90 天数据保留。
   * [DocBeacon](https://docbeacon.io) - 带文档跟踪和互动分析的安全文档分享。免费方案最多支持 20 份 PDF（单份最大 10MB）、10 个联系人、每份文档分享 2 次，并提供浏览、下载、停留时间和互动的基础分析。
   * [Dwh.dev](https://dwh.dev) - 数据云可观测性解决方案（Snowflake），个人使用免费。
   * [Expensify](https://www.expensify.com/) - 费用报告，个人报销审批工作流免费。
@@ -1845,9 +1861,7 @@
 
   * [Adapty.io](https://adapty.io/) - 一站式方案，提供开源 SDK，可在 iOS、Android、React Native、Flutter、Unity 或 Web 应用中集成移动应用内订阅。每月收入不超过 10,000 美元时免费。
   * [AllRatesToday](https://allratestoday.com) - 150 多种货币的实时中间市场汇率，提供官方 JavaScript、Python 和 PHP SDK。免费套餐每月 300 次 HTTPS 请求。
-  * [Codex](https://www.codex.io) - 实时加密货币和预测市场数据 API，提供价格、图表、交易、钱包余额和趋势数据。免费层每月提供 10000 次请求，需要使用信用卡或加密货币进行验证。
   * [Churnkey](https://churnkey.co) - 面向订阅业务的取消流程（开源）、流失指标和收入分析，永久免费。
-  * [CoinMarketCap](https://coinmarketcap.com/api/) - 提供加密货币市场数据，包括最新加密货币与法币汇率，免费套餐每月 10,000 调用积分。
   * [Currencyapi](https://currencyapi.com) - 免费货币转换和汇率数据 API，个人使用每月 300 次请求，每分钟 10 次。
   * [CurrencyApi](https://currencyapi.net/) - 以 JSON 和 XML 提供法币与加密货币实时汇率，免费套餐每月 1,250 次 API 请求。
   * [CurrencyFreaks](https://currencyfreaks.com/) - 提供当前和历史汇率，免费 DEVELOPER 方案每月 1,000 次请求。
@@ -1923,6 +1937,7 @@
   * [ApiFlash](https://apiflash.com) - 基于 AWS Lambda 和 Chrome 的截图 API，支持整页截图、捕获时机和视口尺寸设置。
   * [microlink.io](https://microlink.io/) - 将任意网站转换为元标签规范化、美观链接预览、抓取或截图即服务等数据，每天免费 50 次请求。
   * [PhantomJsCloud](https://PhantomJsCloud.com) - 浏览器自动化和页面渲染，免费套餐每天最多 500 页，自 2017 年起提供免费套餐。
+  * [Renderwolf](https://ironfang.uk/renderwolf) - 位于英国的截图、PDF、图片、二维码和页面片段渲染 API，支持可复用模板与签名 URL。每月 250 次免费渲染，无需填写支付信息即可开始。
   * [screenshotbase.com](https://screenshotbase.com) - 每月 300 张免费截图，可从任意 URL 截图，快速、免费且可扩展。
   * [screenshotlayer.com](https://screenshotlayer.com/) - 高度自定义地捕获任意网站快照，每月 100 张免费。
   * [screenshotmachine.com](https://www.screenshotmachine.com/) - 每月捕获 100 张快照，支持 PNG、GIF 和 JPG，也支持整页而非仅首页截图。
